@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family:hanyi;
+	src:url(../fonts/hanyi.ttf);	
+}
+
+* {padding:0px;margin:0px;list-style:none;	}
+
+.wrapper{
+	position:relative;
+	width:100%;
+	height:100%;	
+}
+
+.top {
+	positoin:relative;
+	width:100%;
+	height:80px;	
+/*	border:1px solid red;
+*/	
+}
+	.top #logo {
+		margin-left:100px;	
+		position:relative;
+		width:80px;
+		height:80px;
+	}
+	.top .nav {
+		text-decoration:none;
+		position:absolute;
+		right:80px;	
+		top:0;
+	}
+			.top .nav a{
+				text-decoration:none;
+				color:#666;
+				font-weight:bold;
+				line-height:80px;
+				text-align:center;
+				display:inline-block;
+				width:100px;
+				height:80px;
+	/*			border:1px solid green;	
+	*/			float:left;				
+			}
+			.top .nav a:hover{
+				color:#FFF;	
+				background-color:#3C0;
+				transition:background 1.5s ease 0s;
+			}
+			
+.middle {
+	position:relative;
+	width:100%;
+	height:657px;
+/*	border:1px solid red;
+*/	background:url(../images/bg1.jpg) no-repeat;
+	background-size:cover;
+}
+	.middle #title{
+		font-family:hanyi;
+		font-size:34px;	
+		color:#fff;
+		display:inline-block;
+		position:absolute;
+		right:260px;
+		top:25px;
+	}
+	.middle .vd {
+		position:relative;
+		top:90px;
+		left:100px;	
+		width:500px;
+		height:400px;
+/*		border:1px solid green;
+*/		
+	}
+	.middle video {
+		width:500px;
+		height:400px;	
+	}
+	.middle #register_bg {
+		position:absolute;
+		left:54%;
+		top:84px;
+		height:550px;
+		width:440px;
+/*		border:7px solid #0C0;	
+*/		
+		border-radius:30px;
+		background:gray;
+		opacity:0.4;
+	}
+	.middle #form {
+		position:absolute;
+		top:80px;
+		left:54%;
+		height:550px;
+		width:440px;
+		border:7px dotted #06F;
+		border-radius:30px;	
+		box-sizing:border-box;
+		box-shadow:5px 5px 20px;
+		padding:22px 30px 10px 30px;
+	}
+		.middle #form span {
+			display:inline-block;
+			width:100px;
+			height:20px;
+/*			border:1px solid green;	
+*/			text-align:right;
+			font-weight:bold;
+/*			margin-bottom:10px;
+*/		}
+		.middle #form form input,select{
+			margin-bottom:10px;	
+			height:20px;
+		}
+		.middle #form form input[type="submit"] {
+			position:relative;
+			left:140px;	
+			height:40px;
+			width:80px;
+			background:orange;
+			font-weight:bold;
+			border-radius:10px;
+			box-shadow:3px 3px 3px #292929;
+		}
+		.middle #form form input[type="radio"] {
+			position:relative;
+			top:5px;	
+			left:2px;
+		}
+		.middle #form #comment {
+			position:relative;
+			bottom:136px;
+			margin-bottom:8px;
+		}
+.footer{
+/*	border:1px solid blue;
+*/	margin:30px;
+	text-align:center;
+	font-size:12px;
+	color:#333;	
+
+}
